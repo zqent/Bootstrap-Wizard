@@ -249,6 +249,7 @@ The following events are available with the wizard:
 	* :ui - Type is "Object". The data that contains the related UI elements.
 	* ::ui.panel: The panel element.
 	* ::ui.index: The index of the panel.
+* Return: return true then chang to next panel else don't change panel.	
 * Code example: ```$("#wizard").bwizard({ validating: function (e, ui) { } });```
 
 Methods
